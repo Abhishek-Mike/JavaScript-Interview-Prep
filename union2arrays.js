@@ -11,7 +11,11 @@ const arr2 = [100,2,1,10]
 // Output : [1,2,3,100,10] ------------Target array
 
      Array.prototype.push.apply(arr1,arr2);  // merging two array
+    // const mergedArray = [...arr1,...arr2]   // using spread operator
+    // const mergedArray1 = arr1.concat(arr2)
      console.log(arr1);  
+    // console.log(mergedArray);
+     //console.log(mergedArray1);
 
 // arr1 = [1, 2, 3, 100, 2, 1, 10]
  arr1.splice(4,2)   
