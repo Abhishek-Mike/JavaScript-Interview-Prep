@@ -1,3 +1,5 @@
+// 3 ways to clone an object
+
 const food = { beef: '🥩', bacon: '🥓' }
 
 

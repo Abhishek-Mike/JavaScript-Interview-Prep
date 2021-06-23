@@ -5,7 +5,7 @@
 
 let str = "The quick brown fox jumped over the lazy dog"
 
-let str1 = str.split(' ')  // array mai slit krna jaruri h
+let str1 = str.split(' ')  // array mai split krna jaruri h
 
 let LongestWord = str1.sort((StringA,StringB)=>{
     return StringB.length - StringA.length
